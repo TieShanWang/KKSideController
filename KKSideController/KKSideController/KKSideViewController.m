@@ -8,10 +8,6 @@
 
 #import "KKSideViewController.h"
 
-#import "UIView+KKFrame.h"
-
-
-
 CGFloat KKSideCriticalScale = 0.4f;
 
 CGFloat KKSideDefaultDuration = 0.25f;
@@ -89,7 +85,7 @@ CGFloat KKSideDefaultDuration = 0.25f;
     
     CGPoint currentP = [pan translationInView:self.view];
     CGPoint velocity = [pan velocityInView:self.view];
-    CGFloat leftCtl_x = _leftVCtl.view.kk_x;
+    CGFloat leftCtl_x = _leftVCtl.view.frame.origin.x;
     
     if (leftCtl_x >= [self maxX] ) {
         if (velocity.x > 0) {
@@ -113,8 +109,9 @@ CGFloat KKSideDefaultDuration = 0.25f;
         newX = [self minX];
     }
     
-    
-    _leftVCtl.view.kk_x = newX;
+    CGRect tmpFrame = _leftVCtl.view.frame;
+    tmpFrame.origin.x = newX;
+    _leftVCtl.view.frame = tmpFrame;
     
     [pan setTranslation:CGPointZero inView:self.view];
     
@@ -138,22 +135,26 @@ CGFloat KKSideDefaultDuration = 0.25f;
 
 /// 手势结束
 -(void)endGesture{
-    CGFloat leftX = _leftVCtl.view.kk_x;
+    CGFloat leftX = _leftVCtl.view.frame.origin.x;
     if (leftX <= [self minX]) {
-        _leftVCtl.view.kk_x = [self minX];
+        CGRect tmpFrame = _leftVCtl.view.frame;
+        tmpFrame.origin.x = [self minX];
+        _leftVCtl.view.frame = tmpFrame;
     }
     
     if (leftX >= [self maxX]) {
-        _leftVCtl.view.kk_x = [self maxX];
+        CGRect tmpFrame = _leftVCtl.view.frame;
+        tmpFrame.origin.x = [self maxX];
+        _leftVCtl.view.frame = tmpFrame;
     }
     
     // 小于临界点
     if (leftX < [self criticalWidth]) {
         // close
-        NSTimeInterval duration = (_leftVCtl.view.kk_width - fabs(leftX)) / _leftVCtl.view.kk_width * self.duration;
+        NSTimeInterval duration = (_leftVCtl.view.frame.size.width - fabs(leftX)) / _leftVCtl.view.frame.size.width * self.duration;
         [self closeAnimation:YES duration:duration];
     }else{
-        NSTimeInterval duration = fabs(leftX) / _leftVCtl.view.kk_width * self.duration;
+        NSTimeInterval duration = fabs(leftX) / _leftVCtl.view.frame.size.width * self.duration;
         [self openAnimation:YES duration:duration];
     }
     
@@ -173,7 +174,7 @@ CGFloat KKSideDefaultDuration = 0.25f;
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^{
                          
-                         CGRect newFrame = CGRectMake(-_leftVCtl.view.kk_width,
+                         CGRect newFrame = CGRectMake(-_leftVCtl.view.frame.size.width,
                                                       0,
                                                       _leftVCtl.view.frame.size.width,
                                                       _leftVCtl.view.frame.size.height);
@@ -242,7 +243,7 @@ CGFloat KKSideDefaultDuration = 0.25f;
 
 /// 最小的X
 -(CGFloat)minX{
-    return -self.leftVCtl.view.kk_width;
+    return -self.leftVCtl.view.frame.size.width;
 }
 
 /// 最大的X
@@ -252,7 +253,7 @@ CGFloat KKSideDefaultDuration = 0.25f;
 
 /// 临界值，指示打开或者关闭
 -(CGFloat)criticalWidth{
-    return _leftVCtl.view.kk_width * (KKSideCriticalScale - 1);
+    return _leftVCtl.view.frame.size.width * (KKSideCriticalScale - 1);
 }
 
 /// 速度的临界值，大于此临界值，将会不再判断手势停止的位置。模拟惯性

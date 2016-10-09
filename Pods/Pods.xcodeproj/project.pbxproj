@@ -7,119 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0379D19217E6908D4DB449CD026B2795 /* UIButton+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DA0DC9994387E11C47ACB921F5A87 /* UIButton+Indicator.m */; };
-		13AEBB00F1887283E6EFB4955BBD616C /* KKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B9E4DFEDFDDC9FC9945A8FADD8C023 /* KKTool.m */; };
-		1AAEF54262504352AF74875853D27405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		388385138ADE4606C179A65E779D4C9F /* UIButton+Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BEED9C945819631DC0A0A562A4728C /* UIButton+Indicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FE33C383D59152C8FE8E6DF321A3A17 /* NSString+KKCheckValid.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6191D8F4FB7EEE4ACA45B5F59E5241 /* NSString+KKCheckValid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5082EF2EF4168C4E4930D379D7DE47C6 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AC58533CFAED2ED7F75570F13A741 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50CF72286AD8C8B2D88E503A90CC04A1 /* NSDictionary+AddProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = EA71DEDF8040614A95ECA7D890B15C67 /* NSDictionary+AddProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52F938FB31DEA37B9CDAC6AF6DE3881C /* Pods-KKSideController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843201EE85B313134DDCD4B27A118782 /* Pods-KKSideController-dummy.m */; };
-		5A966B03AC6E7A304FE96AD5F64F5C35 /* NSString+KKTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D8412602BFA2DCE978E7D6027E37AA77 /* NSString+KKTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CCCA4B4281538C2F11431C1C86A31CB /* NSString+KKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2C075A20C1173E9D39B3E777696D0 /* NSString+KKTool.m */; };
-		821AA453276A5483E494E2E67F418DAB /* UIAlertController+KKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A12DA0BD9FDD4A0DE7025BEBE895739B /* UIAlertController+KKAdd.m */; };
-		8703522DE3F50563A39C4E8AD3613334 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395DA45734534BC053D105CBD466ED4 /* NSData+ImageContentType.m */; };
-		99B83F1DB20EB5DFCBA3BAD0405E5168 /* UIView+KKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 311721C10E190335EA939D9EB55D6C2B /* UIView+KKFrame.m */; };
-		A126514ECC7C9319370BDEDF07B8A2BA /* NSString+KKCheckValid.m in Sources */ = {isa = PBXBuildFile; fileRef = 702EB9C549479758E5B420FAD4630DF7 /* NSString+KKCheckValid.m */; };
-		A3DC441B0B8CB48BF1A8859BC64B00D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		A4CF12DE2F96B1FEE5837340553A7FB3 /* UIAlertController+KKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F98EC8E47F090EAFBA384FC7962BDD /* UIAlertController+KKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8C95BA27EDA36C35DDA448C113E5B20 /* KKMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = ED209AC65AB063DAC00F23B84A9D227E /* KKMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9DA1FE87435B13D6E42714A4132710E /* KKBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C50054F4969B78D0BF97B83D87736B72 /* KKBaseComponent-dummy.m */; };
-		C4498B6DED9DCC4A70388B466DA48F70 /* UIView+KKFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CA77C7F50023E041AE2717C630914A /* UIView+KKFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB074FDEBDE7516F177EE90C74DAE2BE /* NSDictionary+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 64246EA90DECC63D7346A18CBC1CBA3C /* NSDictionary+AddProperty.m */; };
-		D29A668F62FC7A4B5241B41B351733F8 /* KKBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEA9AD2600FCD7F8807D85B631DAB07 /* KKBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE4115EC0F3D0EF39C6A0EA0101E2952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		E531518D71673D62DF654FE6CD0FAA74 /* KKTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFB4ECBE8AFD29A8BBC7210A315ADC1 /* KKTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0744B080A784A7439DE561457FBEF04 /* KKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2ABED5D0267671EFB53044C1A6B55C /* KKBaseModel.m */; };
-		F9B5B5A436B92B198E3DAA093D2DA541 /* KKBaseComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 368A0FDBF5CF81868FA48C1C3E8C9361 /* KKBaseComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C22AD32A453FD91B16E0330CD6CCC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E544C8E6A55C5F89ADB5589E77C99DCF /* Pods-KKSideController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843201EE85B313134DDCD4B27A118782 /* Pods-KKSideController-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4CFBDB39172F26617DA0F785E2BC3141 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1CC8D9DA3A4E43D0FC8211CE5E6DF2DC;
-			remoteInfo = KKBaseComponent;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00B2C075A20C1173E9D39B3E777696D0 /* NSString+KKTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KKTool.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSString/NSString+KKTool.m"; sourceTree = "<group>"; };
-		06E8518BAD2126DF0F9E863C226E5E61 /* libPods-KKSideController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKSideController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E709D630884F1A03DA98861D4D136DC /* KKBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKBaseComponent-prefix.pch"; sourceTree = "<group>"; };
-		222C8CE3101138D0F2573E54BA847490 /* KKBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKBaseComponent.xcconfig; sourceTree = "<group>"; };
-		266AC58533CFAED2ED7F75570F13A741 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		311721C10E190335EA939D9EB55D6C2B /* UIView+KKFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KKFrame.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIView+KKFrame.m"; sourceTree = "<group>"; };
-		3493BBEB0448DF17D17D59781FDA9A5F /* libKKBaseComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKKBaseComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		35ED538F1FFCE29F39B130A119A7BAE1 /* Pods-KKSideController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKSideController.release.xcconfig"; sourceTree = "<group>"; };
-		368A0FDBF5CF81868FA48C1C3E8C9361 /* KKBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKBaseComponent.h; path = KKBaseComponent/KKBaseComponent/KKBaseComponent.h; sourceTree = "<group>"; };
-		3FEA9AD2600FCD7F8807D85B631DAB07 /* KKBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKBaseModel.h; path = KKBaseComponent/KKBaseComponent/KKBaseModel/KKBaseModel.h; sourceTree = "<group>"; };
 		41F4C2D168EBDBC85FF117B33D02124D /* Pods-KKSideController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKSideController-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A10BDB84A2FCE8E9D5A238FC1983F91 /* Pods-KKSideController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKSideController-acknowledgements.plist"; sourceTree = "<group>"; };
-		64246EA90DECC63D7346A18CBC1CBA3C /* NSDictionary+AddProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AddProperty.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSDictionary+AddProperty.m"; sourceTree = "<group>"; };
-		702EB9C549479758E5B420FAD4630DF7 /* NSString+KKCheckValid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KKCheckValid.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSString/NSString+KKCheckValid.m"; sourceTree = "<group>"; };
-		7EFB4ECBE8AFD29A8BBC7210A315ADC1 /* KKTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKTool.h; path = KKBaseComponent/KKBaseComponent/KKTool/KKTool.h; sourceTree = "<group>"; };
-		8395DA45734534BC053D105CBD466ED4 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		843201EE85B313134DDCD4B27A118782 /* Pods-KKSideController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKSideController-dummy.m"; sourceTree = "<group>"; };
-		8E6191D8F4FB7EEE4ACA45B5F59E5241 /* NSString+KKCheckValid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKCheckValid.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSString/NSString+KKCheckValid.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A12DA0BD9FDD4A0DE7025BEBE895739B /* UIAlertController+KKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+KKAdd.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIAlertController+KKAdd.m"; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A7BEED9C945819631DC0A0A562A4728C /* UIButton+Indicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Indicator.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIButton+Indicator.h"; sourceTree = "<group>"; };
-		A9B9E4DFEDFDDC9FC9945A8FADD8C023 /* KKTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKTool.m; path = KKBaseComponent/KKBaseComponent/KKTool/KKTool.m; sourceTree = "<group>"; };
+		9752C5109A83A7590F912FEBF6AAF982 /* libPods-KKSideController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKSideController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC161377C2AED59591EF9C6F3F7D471C /* Pods-KKSideController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKSideController-frameworks.sh"; sourceTree = "<group>"; };
-		B3F98EC8E47F090EAFBA384FC7962BDD /* UIAlertController+KKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+KKAdd.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIAlertController+KKAdd.h"; sourceTree = "<group>"; };
-		B6CA77C7F50023E041AE2717C630914A /* UIView+KKFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KKFrame.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIView+KKFrame.h"; sourceTree = "<group>"; };
-		C50054F4969B78D0BF97B83D87736B72 /* KKBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKBaseComponent-dummy.m"; sourceTree = "<group>"; };
 		CD7556CDEE487BF2EA77510416251214 /* Pods-KKSideController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKSideController-resources.sh"; sourceTree = "<group>"; };
-		D43DA0DC9994387E11C47ACB921F5A87 /* UIButton+Indicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Indicator.m"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/UI/UIButton+Indicator.m"; sourceTree = "<group>"; };
-		D8412602BFA2DCE978E7D6027E37AA77 /* NSString+KKTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKTool.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSString/NSString+KKTool.h"; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EA71DEDF8040614A95ECA7D890B15C67 /* NSDictionary+AddProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AddProperty.h"; path = "KKBaseComponent/KKBaseComponent/KKCatetory/core/NSDictionary+AddProperty.h"; sourceTree = "<group>"; };
-		ED209AC65AB063DAC00F23B84A9D227E /* KKMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKMacro.h; path = KKBaseComponent/KKBaseComponent/KKMacro.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FCCCACB7A9E3EE2C311823A915A92338 /* Pods-KKSideController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKSideController.debug.xcconfig"; sourceTree = "<group>"; };
-		FD2ABED5D0267671EFB53044C1A6B55C /* KKBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKBaseModel.m; path = KKBaseComponent/KKBaseComponent/KKBaseModel/KKBaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		198DEC2E06A3815FB9E575D2E04C2F3A /* Frameworks */ = {
+		53E6708A154258FA8E5DCE32102E6E0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3DC441B0B8CB48BF1A8859BC64B00D0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E661F285C5A1A85E25953C2B84CCA822 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AAEF54262504352AF74875853D27405 /* Foundation.framework in Frameworks */,
-				DE4115EC0F3D0EF39C6A0EA0101E2952 /* UIKit.framework in Frameworks */,
+				A3C22AD32A453FD91B16E0330CD6CCC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CFD5CA195397BF112D47A911C356712 /* Support Files */ = {
+		3C6285618E3FAFA3FCD888CDB9AABACB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				222C8CE3101138D0F2573E54BA847490 /* KKBaseComponent.xcconfig */,
-				C50054F4969B78D0BF97B83D87736B72 /* KKBaseComponent-dummy.m */,
-				1E709D630884F1A03DA98861D4D136DC /* KKBaseComponent-prefix.pch */,
+				9752C5109A83A7590F912FEBF6AAF982 /* libPods-KKSideController.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KKBaseComponent";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		48FE8D20E13722A1C49F76E12BE56E31 /* Targets Support Files */ = {
@@ -128,43 +58,6 @@
 				775FA86E47A90631017D2067FDFA2D50 /* Pods-KKSideController */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4A70908B7A90FD9D374D0FCB5C96860A /* KKBaseComponent */ = {
-			isa = PBXGroup;
-			children = (
-				368A0FDBF5CF81868FA48C1C3E8C9361 /* KKBaseComponent.h */,
-				3FEA9AD2600FCD7F8807D85B631DAB07 /* KKBaseModel.h */,
-				FD2ABED5D0267671EFB53044C1A6B55C /* KKBaseModel.m */,
-				ED209AC65AB063DAC00F23B84A9D227E /* KKMacro.h */,
-				7EFB4ECBE8AFD29A8BBC7210A315ADC1 /* KKTool.h */,
-				A9B9E4DFEDFDDC9FC9945A8FADD8C023 /* KKTool.m */,
-				266AC58533CFAED2ED7F75570F13A741 /* NSData+ImageContentType.h */,
-				8395DA45734534BC053D105CBD466ED4 /* NSData+ImageContentType.m */,
-				EA71DEDF8040614A95ECA7D890B15C67 /* NSDictionary+AddProperty.h */,
-				64246EA90DECC63D7346A18CBC1CBA3C /* NSDictionary+AddProperty.m */,
-				8E6191D8F4FB7EEE4ACA45B5F59E5241 /* NSString+KKCheckValid.h */,
-				702EB9C549479758E5B420FAD4630DF7 /* NSString+KKCheckValid.m */,
-				D8412602BFA2DCE978E7D6027E37AA77 /* NSString+KKTool.h */,
-				00B2C075A20C1173E9D39B3E777696D0 /* NSString+KKTool.m */,
-				B3F98EC8E47F090EAFBA384FC7962BDD /* UIAlertController+KKAdd.h */,
-				A12DA0BD9FDD4A0DE7025BEBE895739B /* UIAlertController+KKAdd.m */,
-				A7BEED9C945819631DC0A0A562A4728C /* UIButton+Indicator.h */,
-				D43DA0DC9994387E11C47ACB921F5A87 /* UIButton+Indicator.m */,
-				B6CA77C7F50023E041AE2717C630914A /* UIView+KKFrame.h */,
-				311721C10E190335EA939D9EB55D6C2B /* UIView+KKFrame.m */,
-				2CFD5CA195397BF112D47A911C356712 /* Support Files */,
-			);
-			path = KKBaseComponent;
-			sourceTree = "<group>";
-		};
-		514D42CD032788720737CF4DBE3CCC29 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3493BBEB0448DF17D17D59781FDA9A5F /* libKKBaseComponent.a */,
-				06E8518BAD2126DF0F9E863C226E5E61 /* libPods-KKSideController.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		775FA86E47A90631017D2067FDFA2D50 /* Pods-KKSideController */ = {
@@ -186,86 +79,37 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				AF06EBD4207ACF9277E96954D20CDFD1 /* Pods */,
-				514D42CD032788720737CF4DBE3CCC29 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3C6285618E3FAFA3FCD888CDB9AABACB /* Products */,
 				48FE8D20E13722A1C49F76E12BE56E31 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AF06EBD4207ACF9277E96954D20CDFD1 /* Pods */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A70908B7A90FD9D374D0FCB5C96860A /* KKBaseComponent */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		1C8A46B8710662631229AC109D9C27B0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9B5B5A436B92B198E3DAA093D2DA541 /* KKBaseComponent.h in Headers */,
-				D29A668F62FC7A4B5241B41B351733F8 /* KKBaseModel.h in Headers */,
-				A8C95BA27EDA36C35DDA448C113E5B20 /* KKMacro.h in Headers */,
-				E531518D71673D62DF654FE6CD0FAA74 /* KKTool.h in Headers */,
-				5082EF2EF4168C4E4930D379D7DE47C6 /* NSData+ImageContentType.h in Headers */,
-				50CF72286AD8C8B2D88E503A90CC04A1 /* NSDictionary+AddProperty.h in Headers */,
-				3FE33C383D59152C8FE8E6DF321A3A17 /* NSString+KKCheckValid.h in Headers */,
-				5A966B03AC6E7A304FE96AD5F64F5C35 /* NSString+KKTool.h in Headers */,
-				A4CF12DE2F96B1FEE5837340553A7FB3 /* UIAlertController+KKAdd.h in Headers */,
-				388385138ADE4606C179A65E779D4C9F /* UIButton+Indicator.h in Headers */,
-				C4498B6DED9DCC4A70388B466DA48F70 /* UIView+KKFrame.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		1CC8D9DA3A4E43D0FC8211CE5E6DF2DC /* KKBaseComponent */ = {
+		2026FDE15C695CF6486420280147FA12 /* Pods-KKSideController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5387915CE502E83E4E775F9348AB8485 /* Build configuration list for PBXNativeTarget "KKBaseComponent" */;
+			buildConfigurationList = 34EB173E5C4692D0C8ED8F4EB3CF1359 /* Build configuration list for PBXNativeTarget "Pods-KKSideController" */;
 			buildPhases = (
-				57B1886AA6029A267A6B2C60D3FE7146 /* Sources */,
-				E661F285C5A1A85E25953C2B84CCA822 /* Frameworks */,
-				1C8A46B8710662631229AC109D9C27B0 /* Headers */,
+				3AC6D5CCE1B6A6046A6B16A2A46F2BE7 /* Sources */,
+				53E6708A154258FA8E5DCE32102E6E0B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = KKBaseComponent;
-			productName = KKBaseComponent;
-			productReference = 3493BBEB0448DF17D17D59781FDA9A5F /* libKKBaseComponent.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BC9BC3FD6BC7C124117D2427BB69E624 /* Pods-KKSideController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B35C01261EE7A4C662B9B142C0959E97 /* Build configuration list for PBXNativeTarget "Pods-KKSideController" */;
-			buildPhases = (
-				02BF11E9D88EA929E0C24F5DA33F674F /* Sources */,
-				198DEC2E06A3815FB9E575D2E04C2F3A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BEBFCE96E62D036D5CCA99D01F62D79 /* PBXTargetDependency */,
 			);
 			name = "Pods-KKSideController";
 			productName = "Pods-KKSideController";
-			productReference = 06E8518BAD2126DF0F9E863C226E5E61 /* libPods-KKSideController.a */;
+			productReference = 9752C5109A83A7590F912FEBF6AAF982 /* libPods-KKSideController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -285,54 +129,73 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 514D42CD032788720737CF4DBE3CCC29 /* Products */;
+			productRefGroup = 3C6285618E3FAFA3FCD888CDB9AABACB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CC8D9DA3A4E43D0FC8211CE5E6DF2DC /* KKBaseComponent */,
-				BC9BC3FD6BC7C124117D2427BB69E624 /* Pods-KKSideController */,
+				2026FDE15C695CF6486420280147FA12 /* Pods-KKSideController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02BF11E9D88EA929E0C24F5DA33F674F /* Sources */ = {
+		3AC6D5CCE1B6A6046A6B16A2A46F2BE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F938FB31DEA37B9CDAC6AF6DE3881C /* Pods-KKSideController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57B1886AA6029A267A6B2C60D3FE7146 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9DA1FE87435B13D6E42714A4132710E /* KKBaseComponent-dummy.m in Sources */,
-				F0744B080A784A7439DE561457FBEF04 /* KKBaseModel.m in Sources */,
-				13AEBB00F1887283E6EFB4955BBD616C /* KKTool.m in Sources */,
-				8703522DE3F50563A39C4E8AD3613334 /* NSData+ImageContentType.m in Sources */,
-				CB074FDEBDE7516F177EE90C74DAE2BE /* NSDictionary+AddProperty.m in Sources */,
-				A126514ECC7C9319370BDEDF07B8A2BA /* NSString+KKCheckValid.m in Sources */,
-				5CCCA4B4281538C2F11431C1C86A31CB /* NSString+KKTool.m in Sources */,
-				821AA453276A5483E494E2E67F418DAB /* UIAlertController+KKAdd.m in Sources */,
-				0379D19217E6908D4DB449CD026B2795 /* UIButton+Indicator.m in Sources */,
-				99B83F1DB20EB5DFCBA3BAD0405E5168 /* UIView+KKFrame.m in Sources */,
+				E544C8E6A55C5F89ADB5589E77C99DCF /* Pods-KKSideController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0BEBFCE96E62D036D5CCA99D01F62D79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KKBaseComponent;
-			target = 1CC8D9DA3A4E43D0FC8211CE5E6DF2DC /* KKBaseComponent */;
-			targetProxy = 4CFBDB39172F26617DA0F785E2BC3141 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		641A709830EED6353B31D7D7C39F9950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ED538F1FFCE29F39B130A119A7BAE1 /* Pods-KKSideController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		726CE7C7380EB3DF7C7651B1E59F99FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCCACB7A9E3EE2C311823A915A92338 /* Pods-KKSideController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -370,75 +233,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7E39277AB30FAAA699FF22467C0D83A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35ED538F1FFCE29F39B130A119A7BAE1 /* Pods-KKSideController.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		923F65D48865871C71AB9A17352F7C00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCCCACB7A9E3EE2C311823A915A92338 /* Pods-KKSideController.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B73DD73CD8F5DC1CA19EAF1925B57744 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 222C8CE3101138D0F2573E54BA847490 /* KKBaseComponent.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KKBaseComponent/KKBaseComponent-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -486,29 +280,6 @@
 			};
 			name = Debug;
 		};
-		F6345F80AE83328175D99B1155516EDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 222C8CE3101138D0F2573E54BA847490 /* KKBaseComponent.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KKBaseComponent/KKBaseComponent-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,20 +292,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5387915CE502E83E4E775F9348AB8485 /* Build configuration list for PBXNativeTarget "KKBaseComponent" */ = {
+		34EB173E5C4692D0C8ED8F4EB3CF1359 /* Build configuration list for PBXNativeTarget "Pods-KKSideController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6345F80AE83328175D99B1155516EDB /* Debug */,
-				B73DD73CD8F5DC1CA19EAF1925B57744 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B35C01261EE7A4C662B9B142C0959E97 /* Build configuration list for PBXNativeTarget "Pods-KKSideController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				923F65D48865871C71AB9A17352F7C00 /* Debug */,
-				7E39277AB30FAAA699FF22467C0D83A7 /* Release */,
+				726CE7C7380EB3DF7C7651B1E59F99FE /* Debug */,
+				641A709830EED6353B31D7D7C39F9950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
